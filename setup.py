@@ -10,7 +10,7 @@ setuptools.setup(
     name="ray-mapreduce",
     version="1.0.0",
     author="Sha Liu",
-    author_email="liushaskymm@gmail.com",
+    author_email="liu226@iu.edu",
     description="Simple Mapreduce implementation based on Ray multiprocessing",
     packages=setuptools.find_packages(),
     install_requires=[

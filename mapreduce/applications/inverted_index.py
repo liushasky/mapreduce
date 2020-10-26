@@ -1,7 +1,5 @@
 import string
 import multiprocessing
-import re
-import os
 
 ### The map function
 def map_words(filename):

@@ -1,9 +1,10 @@
-from mapreduce.example.word_count import *
+from mapreduce.applications.word_count import *
 from mapreduce.api import *
 import operator
+
 ### Input/Output file path
-input_files = "*.txt"
-output_location = "output/wc_sample_result.txt"
+input_files = "input/*.txt"
+output_location = "output/word_count_result.txt"
 
 ### Start testing
 cluster_id = init_cluster('localhost','9008')
